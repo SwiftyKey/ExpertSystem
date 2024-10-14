@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ExpertSystem (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "ExpertSystem (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

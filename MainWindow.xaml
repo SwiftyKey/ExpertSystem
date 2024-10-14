@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="ExpertSystem.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ExpertSystem"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="Экспертная система">
+
+    <StackPanel
+        Orientation="Vertical"
+        HorizontalAlignment="Center" 
+        VerticalAlignment="Center">
+        <Image
+            x:Name="ImgBox"
+            Width="200"
+            Height="200"
+            Margin="0,0,0,20"/>
+        <TextBlock
+            x:Name="TbQuestion"
+            FontSize="20"
+            Margin="0,0,0,20"/>
+        <StackPanel
+            Orientation="Horizontal"
+            HorizontalAlignment="Center" 
+            VerticalAlignment="Center">
+            <Button
+                x:Name="BtnNo"
+                Margin="0,0,20,0"
+                Click="ClickedNo">Нет</Button>
+            <Button
+                x:Name="BtnYes"
+                Margin="20,0,0,0"
+                Click="ClickedYes">Да</Button>
+            <Button
+                x:Name="BtnRetry"
+                Margin="20,0,0,0"
+                Click="ClickedRetry">Заново</Button>
+        </StackPanel>
+    </StackPanel>
+</Window>
